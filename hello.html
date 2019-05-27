@@ -2,9 +2,62 @@
 <html>
   <head>
   	<title>My Webpage</title>
+  	<link rel="stylesheet" href="styles.css">
+  	<style>
+  		div{
+  			color: rgb(50,205,50);
+  			background-color: teal;
+  			width: 900px;
+  			height: 900px;
+  			margin: 30px;
+  			padding: 30px;
+  			font-family: Arial,sans-serif;
+  			font-size: 30px;
+  			font-weight: bold;
+  			border: 8px dotted rgb(0,100,0);
+  		}
+
+  		table{
+  			border: 3px solid rgb(0,100,0);
+  			border-collapse: collapse;
+  			width: 50%;
+  			text-align: center;
+  		}
+
+  		th,td{
+  			border: 2px solid rgb(0,100,0);
+  			padding: 10px;
+  		}
+
+  		th{
+  			background-color: rgb(255,224,189)
+  		}
+  	
+  	</style>
   <body>
   </body>
-  <h1>Heading</h1>
-   <img src="cat.jpg">
+  <h1>My Cats!!</h1>
+  <h1>Grumpy and George</h1>
+  <div>
+  <img src="cat.jpg" height="600" width="900">
+  <table>
+  	<tr>
+  		<th>Cat no.</th>
+  		<th>Cat name</th>
+  	</tr>
+  	<tr>
+  		<td>1</td>
+  		<td>Grumpy</td>
+  	</tr>
+  	<tr>
+  		<td>2</td>
+  		<td>George</td>
+  	</tr>
+  </table>
+  <form>
+  	<input type="text" placeholder="Your comments!!" name="review">
+  	<button>Submit</button>
+  </form>
+  </div>
   </body>
 </html>
